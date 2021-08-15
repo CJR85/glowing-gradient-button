@@ -40,6 +40,16 @@ body {
   transition: 0.5;
 }
 
+.container a:nth-child(1)::before,
+.container a:nth-child(1)::after {
+  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
+}
+
+.container a:nth-child(2)::before,
+.container a:nth-child(2)::after {
+  background: linear-gradient(45deg, #ff075b, #0e1538, #0e1538, #1aff22);
+}
+
 .container a:hover:before {
   inset: -3px;
 }
